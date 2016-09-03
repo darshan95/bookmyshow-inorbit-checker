@@ -7,17 +7,17 @@ import re
 import smtplib
 from email.mime.text import MIMEText
 
-url = "http://goo.gl/S3Ovtc"
-username = "sigegov.gov"
-password = "sigegov123"
-sender = 'sigegov.gov@gmail.com'
-receivers = ['akash.agrawall094@gmail.com', 'shikher111@gmail.com', 'jaspreetsingh112@gmail.com']
+url = #<Movie's link where all theatres are present>
+username = #<username>
+password = #<password>
+sender = #<sender's email>
+receivers = [<List of people whom you want to send>]
 message = MIMEText("""Head over here to check if the script worked correctly. :P
-http://goo.gl/S3Ovtc""")
-message['Subject'] = "Yo!!. We are on for Inoribt - monday - mission-impossible-rogue-nation :D"
+<link of movie>"")
+message['Subject'] = "Yo!!. We are on :D"
 message['From'] = "GoGoMaster<GoGoMaster@GoGo.com>"
 message['To'] = ", ".join(receivers)
-
+#Yes, google has a open SMTP server :D
 smtpObj = smtplib.SMTP('smtp.gmail.com:587')
 
 while True:
