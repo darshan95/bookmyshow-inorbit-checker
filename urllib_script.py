@@ -13,7 +13,7 @@ password = #<password>
 sender = #<sender's email>
 receivers = [<List of people whom you want to send>]
 message = MIMEText("""Head over here to check if the script worked correctly. :P
-<link of movie>"")
+<link of movie>""")
 message['Subject'] = "Yo!!. We are on :D"
 message['From'] = "GoGoMaster<GoGoMaster@GoGo.com>"
 message['To'] = ", ".join(receivers)
