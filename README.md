@@ -6,4 +6,6 @@ The scripts are:
 
 
 Once the URL is opened using **urllib2** (in urllib_script.py) or **selenium** (in selenium_script.py), one can search easily for presence of **Inorbit Mall**.    
-After the match is found, mail is sent to concerned persons using **smtplib** package. **Gmail** smtp server is used, which is available for free. More details here: [Link](https://support.google.com/a/answer/176600?hl=en)    
+After the match is found, mail is sent to concerned persons using **smtplib** package. **Gmail** smtp server is used, which is available for free. More details here: [Link](https://support.google.com/a/answer/176600?hl=en)   
+
+*******adfasfasfasf
